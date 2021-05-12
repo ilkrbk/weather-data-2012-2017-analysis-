@@ -1,0 +1,22 @@
+{
+  "name": "weather-data",
+  "version": "1.0.0",
+  "description": "analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilkrbk/weather-data-2012-2017-analysis-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilkrbk/weather-data-2012-2017-analysis-/issues"
+  },
+  "homepage": "https://github.com/ilkrbk/weather-data-2012-2017-analysis-#readme",
+  "dependencies": {
+    "danfojs-node": "^0.2.6"
+  }
+}
