@@ -1,16 +1,4 @@
-// const express = require("express");
-// const Pool = require("pg").Pool;
 const dfd = require("danfojs-node");
-
-// const pool = new Pool({
-//     user: "ilkrbk",
-//     password: "*************",
-//     host: "localhost",
-//     port: "5432",
-//     database: "database"
-// });
-
-// const app = express(); 
 
 function FillNanAverage(df) {
     let arr = []
@@ -36,7 +24,6 @@ function FillNanAverage(df) {
             }
         }
     }
-    // df.print()
 }
 
 function WriteFile(df, pathEnd){
@@ -68,6 +55,4 @@ function CleanDataWeatherDescr(path) {
 // CleanData("./data/temperature.csv", FillNanAverage, WriteFile, "./dataClean/temperature.csv")
 // CleanData("./data/wind_direction.csv", FillNanAverage, WriteFile, "./dataClean/wind_direction.csv")
 // CleanData("./data/wind_speed.csv", FillNanAverage, WriteFile, "./dataClean/wind_speed.csv")
-CleanDataWeatherDescr("./data/weather_description.csv")
-
-// app.listen(1987);
+// CleanDataWeatherDescr("./data/weather_description.csv")
